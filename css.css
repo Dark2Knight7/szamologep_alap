@@ -1,6 +1,7 @@
 main {
     max-width: 200px;
     text-align: center;
+    margin: auto;
 }
 * {
     box-sizing: border-box;
@@ -23,7 +24,10 @@ article {
     padding: 5px;
 }
 .szamok {
-   
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 10px;
+   margin-right: 5px;
 }
 .szamok button {
     
